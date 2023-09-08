@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Egba Nnaemeka | Profile Card</title>
+</head>
+<body>
+    <main class="main-container">
+        <section class="profile_card">
+            <div class="container">
+                <div class="img">
+                    <img src="./assets/image.jpg" width="200px" class="img" alt="Emeka" data-testid="slackDisplayImage" />
+                </div>
+                <div class="details-container">
+                    <p data-testid="myTrack" class="track">Frontend</p>
+                    <h2 data-testid="slackUserName" class="name">Emeka&#x0031;&#xFE0F;&#x20E3;</h2>
+                    <div class="date">
+                        <p id="currentDay" data-testid="currentDayOfTheWeek"></p>
+                        -
+                        <time data-testid="currentUTCTime" id="utc-time-milliseconds"></time>
+                    </div>
+                    <a href="https://github.com/egba001" class="github-url" data-testid="githubURL">
+                        Github
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
